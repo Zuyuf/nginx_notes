@@ -4,7 +4,7 @@ This my personal notes about NGINX.
    
 ### NGINX Basic   
 1. Fireship.io 100 Seconds - [Video](https://www.youtube.com/watch?v=JKxlsvZXG7c)   
-2. CodeDamn - [Video](https://www.youtube.com/watch?v=JKxlsvZXG7c)   
+2. CodeDamn - [Video](https://www.youtube.com/watch?v=PAEDJrGJyaY)   
 
 
 ### NGINX Popular Use Cases  

@@ -1,5 +1,5 @@
-# NGINX Notes - TL DR verision
-This my personal notes about NGINX.   
+# NGINX Notes - TL DR version
+These are my notes about NGINX.   
    
    
 ### NGINX Basic   

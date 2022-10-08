@@ -35,3 +35,8 @@ Frontend Timeouts is what the Client talks to NGINX. The timeouts provide Securi
 - If data are not received during this time, the connection is closed. 
 - Otherwise, the data are read and ignored, and NGINX starts waiting for more data again. 
 - The “wait-read-ignore” cycle is repeated, but no longer than specified by the `lingering_time` directive.
+
+### Resolver Timeout
+- `resolver_timeout` - Default 30s.
+- Sets a timeout for name resolution of backend.
+- In other words, how long NGINX will wait for an answer from the resolver (DNS)?

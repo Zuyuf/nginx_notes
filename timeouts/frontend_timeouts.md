@@ -28,3 +28,10 @@ Frontend Timeouts is what the Client talks to NGINX. The timeouts provide Securi
 - The zero value disables keep-alive client connections.
 - The first parameter sets a timeout during which a keep-alive client connection will stay open on the server side.
 - The optional second parameter sets a value in the `“Keep-Alive: timeout=time”` response header field. Two parameters may differ
+
+### Lingering Timeout
+- `lingering_timeout` - Default 30s.
+- When lingering_close is in effect, this directive specifies the maximum waiting time for more client data to arrive. 
+- If data are not received during this time, the connection is closed. 
+- Otherwise, the data are read and ignored, and NGINX starts waiting for more data again. 
+- The “wait-read-ignore” cycle is repeated, but no longer than specified by the `lingering_time` directive.

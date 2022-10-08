@@ -15,4 +15,5 @@ These are my notes about NGINX.
 
 
 ### NGINX Fundamentals
-1. Load Balancing - [Read More](./fundamentals//load_balancing.md)
+1. Load Balancing - [Read More](./fundamentals/load_balancing.md)
+1. TLS - [Read More](./fundamentals/TLS.md)

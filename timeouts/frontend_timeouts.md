@@ -1,5 +1,5 @@
 # Frontend Timeouts
-Frontend Timeouts is what the Client talks to NGINX. For Security & Efficient use of resources.
+Frontend Timeouts is what the Client talks to NGINX. The timeouts provide Security & Efficient use of resources.
 #### Only Commonly used Timeouts are listed
 
 
@@ -23,3 +23,8 @@ Frontend Timeouts is what the Client talks to NGINX. For Security & Efficient us
 - If the client does not receive anything within this time, the connection is closed.
 - Handles Bad Requests Problems. 
 
+### Keep Alive Timeout
+- `keepalive_timeout` - Default 75s.
+- The zero value disables keep-alive client connections.
+- The first parameter sets a timeout during which a keep-alive client connection will stay open on the server side.
+- The optional second parameter sets a value in the `“Keep-Alive: timeout=time”` response header field. Two parameters may differ

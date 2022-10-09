@@ -23,3 +23,10 @@ These are my notes about NGINX.
 Timeouts are critical for the Security & Efficient utilization of resources.
 1. Frontend Timeouts: When Client talking to NGINX - [Read More](./timeouts/frontend_timeouts.md)
 2. Backend Timeouts: When NGINX talks to Backend - [Read More](./timeouts/backend_timeouts.md)
+
+
+### NGINX CLI Commands
+- Commonly Used Commands - [Link](./nginx_commands.md)
+
+### NGINX HTTP Context
+- Static Web Server - [Link](./http//static_server.conf)

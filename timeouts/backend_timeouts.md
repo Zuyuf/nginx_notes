@@ -26,7 +26,7 @@ Backend Timeouts are when the NGINX talks to the Backend. The timeouts provide S
 - Limits the time during which a request can be passed to the next server. 
 
 ### keep Alive Timeout
-- `Keepalive_timeout` - Default 75s.
+- `keepalive_timeout` - Default 75s.
 - Sets a timeout during which an idle keepalive connection to an upstream server will stay open.
 
 ### For More Backend Timeouts

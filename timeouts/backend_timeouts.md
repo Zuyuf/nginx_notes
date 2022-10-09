@@ -25,6 +25,9 @@ Backend Timeouts are when the NGINX talks to the Backend. The timeouts provide S
 - The 0 value turns off this limitation
 - Limits the time during which a request can be passed to the next server. 
 
+### keep Alive Timeout
+- `Keepalive_timeout` - Default 75s.
+- Sets a timeout during which an idle keepalive connection to an upstream server will stay open.
 
 ### For More Backend Timeouts
 [NGINX - HTTP Proxy Module](https://nginx.org/en/docs/http/ngx_http_proxy_module.html)

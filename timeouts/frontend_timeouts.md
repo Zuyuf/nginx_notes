@@ -38,5 +38,5 @@ Frontend Timeouts is what the Client talks to NGINX. The timeouts provide Securi
 
 ### Resolver Timeout
 - `resolver_timeout` - Default 30s.
-- Sets a timeout for name resolution of backend.
+- Sets a timeout for name resolution of the backend.
 - In other words, how long NGINX will wait for an answer from the resolver (DNS)?

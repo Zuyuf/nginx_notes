@@ -20,6 +20,6 @@ These are my notes about NGINX.
 
 
 ### Proxy Timeouts for Efficient Configuration
-Timeouts are critical for the Security & Efficient utilization of resourses.
+Timeouts are critical for the Security & Efficient utilization of resources.
 1. Frontend Timeouts: When Client talking to NGINX - [Read More](./timeouts/frontend_timeouts.md)
 2. Backend Timeouts: When NGINX talks to Backend - [Read More](./timeouts/backend_timeouts.md)

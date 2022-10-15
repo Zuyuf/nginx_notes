@@ -29,4 +29,7 @@ Timeouts are critical for the Security & Efficient utilization of resources.
 - Commonly Used Commands - [Link](./nginx_commands.md)
 
 ### NGINX HTTP Context
-- Static Web Server - [Link](./http//static_server.conf)
+- Static Web Server - [Link](./http/static_server.conf)
+- Layer 7 Load Balancing - [Link](./http/http_layer_7.conf)
+- Layer 4 Load Balancing - [Link](./http/http_layer_4.conf)
+- HTTP2 & TLSv1.3 - [Link](./http/http2_TLS.conf)

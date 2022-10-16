@@ -33,3 +33,8 @@ Timeouts are critical for the Security & Efficient utilization of resources.
 - Layer 7 Load Balancing - [Link](./http/http_layer_7.conf)
 - Layer 4 Load Balancing - [Link](./http/http_layer_4.conf)
 - HTTP2 & TLSv1.3 - [Link](./http/http2_TLS.conf)
+
+### NGINX WebSockets
+- Layer 4 Load Balancing - [link](./web_socket/tcp.cfg)
+- Layer 7 Load Balancing - [link](./web_socket/ws.cfg)
+- Testing HTML Interface - [link](./web_socket/index.html)
